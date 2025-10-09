@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="diseños.css">
+    
+</head>
+
+<style>
+.menu_navegacionn {
+
+    display: flex;
+    font-size: 19px;
+    background-color: #852fd6;
+    justify-content: center;
+
+}
+
+.menu_navegacionn nav {
+
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000;
+    
+
+}
+
+.menu_navegacionn ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 6rem;
+    background-color: #852fd6;
+    padding: 0.5rem 0;
+    
+}
+
+.menu_navegacionn ul li {
+
+    background-color: #333;
+    text-decoration: none;
+    border: 3px solid rgb(114, 110, 110);
+    width: 9%;
+    border-radius: 12px;
+
+}
+</style>
+
+<body>
+    <!--Menu de navegacion-->
+    <nav class="menu_navegacionn">
+        <ul>
+            <li>Inicio</li>
+            <li>Inicio 2</li>
+            <li>Inicio 3</li>
+            <li>Inicio 4</li>
+        </ul>
+
+    </nav>
+    
+</body>
+</html>
