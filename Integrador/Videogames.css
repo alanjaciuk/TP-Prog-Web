@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    font-size: 19px;
+    background-color: #351157;
+    justify-content: center;
+    box-shadow: 0 8px 9px rgba(132, 30, 216, 0.4);
+
+}
+
+
+.container nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    
+    
+
+}
+
+.container ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 6rem;
+    background-color: #351157;
+    padding: 0.5rem 0;
+    
+    
+}
+
+.container ul li {
+
+    background-color: #2a51bb;
+    text-decoration: none;
+    border: 3px solid rgb(247, 25, 255);
+    width: 9%;
+    border-radius: 12px;
+    
+
+}
