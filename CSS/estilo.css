@@ -153,7 +153,7 @@ display: var(--show, none);
     gap: 1em;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-    
+
 }
 
 .about__icons{
